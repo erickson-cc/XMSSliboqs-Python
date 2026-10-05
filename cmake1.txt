@@ -1,0 +1,37 @@
+[Erickson@Host Documents]$ cmake -S liboqs -B liboqs/build -DBUILD_SHARED_LIBS=ON -DOQS_HAZARDOUS_EXPERIMENTAL_ENABLE_SIG_STFL_KEY_SIG_GEN=ON -DOQS_ENABLE_SIG_STFL_LMS=ON -DOQS_ENABLE_SIG_STFL_XMSS=ON -DCMAKE_INSTALL_PREFIX=/home/Erickson/liboqs
+-- The C compiler identification is GNU 16.2.1
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- OQS Testing: Pytest parallel workers set to 'auto'
+-- CMAKE_BUILD_TYPE=Release
+-- Performing Test CC_SUPPORTS_WA_NOEXECSTACK
+-- Performing Test CC_SUPPORTS_WA_NOEXECSTACK - Success
+-- Performing Test LD_SUPPORTS_WL_Z_NOEXECSTACK
+-- Performing Test LD_SUPPORTS_WL_Z_NOEXECSTACK - Success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Alg enablement unchanged
+-- Experimental stateful key and signature generation is enabled. Ensure secret keys are securely stored to prevent multiple simultaneous sign operations.
+-- Found OpenSSL: /usr/lib/libcrypto.so (found suitable version "3.6.5", minimum required is "1.1.1")
+-- Looking for aligned_alloc
+-- Looking for aligned_alloc - found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for memalign
+-- Looking for memalign - found
+-- Looking for explicit_bzero
+-- Looking for explicit_bzero - found
+-- Looking for explicit_memset
+-- Looking for explicit_memset - not found
+-- Looking for memset_s
+-- Looking for memset_s - not found
+-- Found Doxygen: /usr/bin/doxygen (found version "1.18.0") found components: doxygen missing components: dot
+-- Configuring done (1.2s)
+-- Generating done (0.8s)
+-- Build files have been written to: /home/Erickson/Documents/liboqs/build

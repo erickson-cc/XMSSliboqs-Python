@@ -1,0 +1,57 @@
+Pretendo estruturar o meu projeto da seguinte maneira:
+/home/Erickson/liboqs - Biblioteca do Liboqs
+/home/Erickson/Documents/XMSSliboqs-Python - conterá o código em python da implementação do XMSS
+/home/Erickson/Documents/liboqs-python - clone do repositório liboqs-python
+/home/Erickson/Documents/liboqs - clone do repositório liboqs
+
+Pergunta: consigo usar essa estrutura ou precisa ter mais arquivos dentro do repositorio da implementação para o algoritmo funcionar?
+
+
+Para rodar o wrapper do Liboqs em python eu vou precisar ter alguns softwares instalados.
+[x] git
+[x] cmake
+[x] gcc
+[x] python
+[ ] liboqs
+
+# Instalação liboqs
+
+
+Pretendo instalar a biblioteca do liboqs dentro do meu usuario, no caminho /home/Erickson/liboqs
+O README do liboqs-python informa os seguintes comandos:
+'''
+git clone --depth=1 https://github.com/open-quantum-safe/liboqs
+cmake -S liboqs -B liboqs/build -DBUILD_SHARED_LIBS=ON -DOQS_HAZARDOUS_EXPERIMENTAL_ENABLE_SIG_STFL_KEY_SIG_GEN=ON -DOQS_ENABLE_SIG_STFL_LMS=ON -DOQS_ENABLE_SIG_STFL_XMSS=ON -DCMAKE_INSTALL_PREFIX=/home/Erickson/liboqs
+cmake --build liboqs/build --parallel 6
+cmake --build liboqs/build --target install
+
+Apontar a variável de ambiente para a biblioteca. Se não fizer isso, o python vai instalar em ~/_oqs/
+'''
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/Erickson/liboqs/lib
+
+
+Instalar e ativar o ambiente virtual Python:
+'''
+python3 -m venv venv
+. venv/bin/activate
+python3 -m ensurepip --upgrade
+
+Instalar o wrapper liboqs-python
+'''
+pip install liboqs-python
+
+Caso não dê certo, posso instalar diretamente do repositório.
+'''
+git clone --depth=1 https://github.com/open-quantum-safe/liboqs-python
+cd liboqs-python
+pip install .
+
+Para testar, posso rodar os exemplos:
+'''
+python3 liboqs-python/examples/kem.py
+python3 liboqs-python/examples/sig.py
+python3 liboqs-python/examples/stfl_sig.py
+python3 liboqs-python/examples/rand.py
+
+
+Pergunta: o arquivo README.md do liboqs-python informa uma seção sobre a dockerfile. Entendo pouco sobre conteineres, consigo usar o dockerfile para não precisar passar por todo esse processo de instalação? Como funciona isso?

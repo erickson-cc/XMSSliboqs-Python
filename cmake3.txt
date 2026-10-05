@@ -1,0 +1,319 @@
+[Erickson@Host Documents]$ cmake --build liboqs/build --target install
+[  0%] Built target lms
+[  1%] Built target common
+[  1%] Built target xkcp_low_keccakp_1600_plain64
+[  1%] Built target xkcp_low_keccakp_1600times4_serial
+[  1%] Built target xkcp_low_keccakp_1600_avx2
+[  1%] Built target xkcp_low_keccakp_1600times4_avx2
+[  1%] Built target sha3_avx512vl_low
+[  1%] Built target kem_bike
+[  1%] Built target bike_l1
+[  2%] Built target bike_l3
+[  2%] Built target bike_l5
+[  3%] Built target frodokem
+[  3%] Built target frodokem_avx2
+[  3%] Built target ntruprime_sntrup761_openssh
+[  4%] Built target ntru_hps2048509_clean
+[  4%] Built target ntru_hps2048509_avx2
+[  4%] Built target ntru_hps2048677_clean
+[  5%] Built target ntru_hps2048677_avx2
+[  5%] Built target ntru_hps4096821_clean
+[  6%] Built target ntru_hps4096821_avx2
+[  6%] Built target ntru_hps40961229_clean
+[  6%] Built target ntru_hrss701_clean
+[  7%] Built target ntru_hrss701_avx2
+[  8%] Built target ntru_hrss1373_clean
+[  9%] Built target classic_mceliece_348864_clean
+[ 10%] Built target classic_mceliece_348864_avx2
+[ 11%] Built target classic_mceliece_348864f_clean
+[ 11%] Built target classic_mceliece_348864f_avx2
+[ 11%] Built target classic_mceliece_460896_clean
+[ 12%] Built target classic_mceliece_460896_avx2
+[ 13%] Built target classic_mceliece_460896f_clean
+[ 14%] Built target classic_mceliece_460896f_avx2
+[ 15%] Built target classic_mceliece_6688128_clean
+[ 15%] Built target classic_mceliece_6688128_avx2
+[ 15%] Built target classic_mceliece_6688128f_clean
+[ 16%] Built target classic_mceliece_6688128f_avx2
+[ 16%] Built target classic_mceliece_6960119_clean
+[ 17%] Built target classic_mceliece_6960119_avx2
+[ 18%] Built target classic_mceliece_6960119f_clean
+[ 19%] Built target classic_mceliece_6960119f_avx2
+[ 19%] Built target classic_mceliece_8192128_clean
+[ 20%] Built target classic_mceliece_8192128_avx2
+[ 20%] Built target classic_mceliece_8192128f_clean
+[ 21%] Built target classic_mceliece_8192128f_avx2
+[ 22%] Built target hqc_1_ref
+[ 22%] Built target hqc_3_ref
+[ 22%] Built target hqc_5_ref
+[ 22%] Built target kyber_512_ref
+[ 22%] Built target kyber_512_avx2
+[ 22%] Built target kyber_768_ref
+[ 23%] Built target kyber_768_avx2
+[ 24%] Built target kyber_1024_ref
+[ 24%] Built target kyber_1024_avx2
+[ 24%] Built target ml_kem_512_ref
+[ 25%] Built target ml_kem_512_x86_64
+[ 25%] Built target ml_kem_768_ref
+[ 26%] Built target ml_kem_768_x86_64
+[ 26%] Built target ml_kem_1024_ref
+[ 27%] Built target ml_kem_1024_x86_64
+[ 27%] Built target ml_dsa_44_ref
+[ 28%] Built target ml_dsa_44_x86_64
+[ 28%] Built target ml_dsa_65_ref
+[ 29%] Built target ml_dsa_65_x86_64
+[ 29%] Built target ml_dsa_87_ref
+[ 30%] Built target ml_dsa_87_x86_64
+[ 30%] Built target ml_dsa_44_extmu
+[ 30%] Built target ml_dsa_65_extmu
+[ 30%] Built target ml_dsa_87_extmu
+[ 30%] Built target falcon_512_clean
+[ 30%] Built target falcon_512_avx2
+[ 31%] Built target falcon_1024_clean
+[ 31%] Built target falcon_1024_avx2
+[ 31%] Built target falcon_padded_512_clean
+[ 31%] Built target falcon_padded_512_avx2
+[ 32%] Built target falcon_padded_1024_clean
+[ 32%] Built target falcon_padded_1024_avx2
+[ 32%] Built target mayo_1_opt
+[ 33%] Built target mayo_1_avx2
+[ 33%] Built target mayo_2_opt
+[ 33%] Built target mayo_2_avx2
+[ 33%] Built target mayo_3_opt
+[ 33%] Built target mayo_3_avx2
+[ 34%] Built target mayo_5_opt
+[ 34%] Built target mayo_5_avx2
+[ 34%] Built target cross_rsdp_128_balanced_clean
+[ 34%] Built target cross_rsdp_128_balanced_avx2
+[ 35%] Built target cross_rsdp_128_fast_clean
+[ 35%] Built target cross_rsdp_128_fast_avx2
+[ 35%] Built target cross_rsdp_128_small_clean
+[ 35%] Built target cross_rsdp_128_small_avx2
+[ 35%] Built target cross_rsdp_192_balanced_clean
+[ 35%] Built target cross_rsdp_192_balanced_avx2
+[ 36%] Built target cross_rsdp_192_fast_clean
+[ 36%] Built target cross_rsdp_192_fast_avx2
+[ 36%] Built target cross_rsdp_192_small_clean
+[ 36%] Built target cross_rsdp_192_small_avx2
+[ 36%] Built target cross_rsdp_256_balanced_clean
+[ 36%] Built target cross_rsdp_256_balanced_avx2
+[ 37%] Built target cross_rsdp_256_fast_clean
+[ 37%] Built target cross_rsdp_256_fast_avx2
+[ 37%] Built target cross_rsdp_256_small_clean
+[ 37%] Built target cross_rsdp_256_small_avx2
+[ 37%] Built target cross_rsdpg_128_balanced_clean
+[ 37%] Built target cross_rsdpg_128_balanced_avx2
+[ 38%] Built target cross_rsdpg_128_fast_clean
+[ 38%] Built target cross_rsdpg_128_fast_avx2
+[ 38%] Built target cross_rsdpg_128_small_clean
+[ 38%] Built target cross_rsdpg_128_small_avx2
+[ 38%] Built target cross_rsdpg_192_balanced_clean
+[ 38%] Built target cross_rsdpg_192_balanced_avx2
+[ 39%] Built target cross_rsdpg_192_fast_clean
+[ 39%] Built target cross_rsdpg_192_fast_avx2
+[ 39%] Built target cross_rsdpg_192_small_clean
+[ 39%] Built target cross_rsdpg_192_small_avx2
+[ 39%] Built target cross_rsdpg_256_balanced_clean
+[ 39%] Built target cross_rsdpg_256_balanced_avx2
+[ 39%] Built target cross_rsdpg_256_fast_clean
+[ 40%] Built target cross_rsdpg_256_fast_avx2
+[ 40%] Built target cross_rsdpg_256_small_clean
+[ 40%] Built target cross_rsdpg_256_small_avx2
+[ 41%] Built target uov_ov_Is_ref
+[ 41%] Built target uov_ov_Is_avx2
+[ 42%] Built target uov_ov_Ip_ref
+[ 42%] Built target uov_ov_Ip_avx2
+[ 43%] Built target uov_ov_III_ref
+[ 43%] Built target uov_ov_III_avx2
+[ 44%] Built target uov_ov_V_ref
+[ 44%] Built target uov_ov_V_avx2
+[ 45%] Built target uov_ov_Is_pkc_ref
+[ 45%] Built target uov_ov_Is_pkc_avx2
+[ 46%] Built target uov_ov_Ip_pkc_ref
+[ 46%] Built target uov_ov_Ip_pkc_avx2
+[ 47%] Built target uov_ov_III_pkc_ref
+[ 47%] Built target uov_ov_III_pkc_avx2
+[ 48%] Built target uov_ov_V_pkc_ref
+[ 48%] Built target uov_ov_V_pkc_avx2
+[ 48%] Built target uov_ov_Is_pkc_skc_ref
+[ 48%] Built target uov_ov_Is_pkc_skc_avx2
+[ 48%] Built target uov_ov_Ip_pkc_skc_ref
+[ 48%] Built target uov_ov_Ip_pkc_skc_avx2
+[ 48%] Built target uov_ov_III_pkc_skc_ref
+[ 48%] Built target uov_ov_III_pkc_skc_avx2
+[ 48%] Built target uov_ov_V_pkc_skc_ref
+[ 48%] Built target uov_ov_V_pkc_skc_avx2
+[ 48%] Built target snova_SNOVA_I_K_opt
+[ 48%] Built target snova_SNOVA_I_K_avx2
+[ 48%] Built target snova_SNOVA_I_K_AES_opt
+[ 48%] Built target snova_SNOVA_I_K_AES_avx2
+[ 48%] Built target snova_SNOVA_I_B_opt
+[ 49%] Built target snova_SNOVA_I_B_avx2
+[ 49%] Built target snova_SNOVA_I_B_AES_opt
+[ 49%] Built target snova_SNOVA_I_B_AES_avx2
+[ 49%] Built target snova_SNOVA_I_S_opt
+[ 49%] Built target snova_SNOVA_I_S_avx2
+[ 49%] Built target snova_SNOVA_I_S_AES_opt
+[ 49%] Built target snova_SNOVA_I_S_AES_avx2
+[ 49%] Built target snova_SNOVA_III_K_opt
+[ 49%] Built target snova_SNOVA_III_K_avx2
+[ 49%] Built target snova_SNOVA_III_K_AES_opt
+[ 49%] Built target snova_SNOVA_III_K_AES_avx2
+[ 49%] Built target snova_SNOVA_III_B_opt
+[ 49%] Built target snova_SNOVA_III_B_avx2
+[ 49%] Built target snova_SNOVA_III_B_AES_opt
+[ 49%] Built target snova_SNOVA_III_B_AES_avx2
+[ 49%] Built target snova_SNOVA_III_S_opt
+[ 49%] Built target snova_SNOVA_III_S_avx2
+[ 49%] Built target snova_SNOVA_III_S_AES_opt
+[ 49%] Built target snova_SNOVA_III_S_AES_avx2
+[ 49%] Built target snova_SNOVA_V_K_opt
+[ 49%] Built target snova_SNOVA_V_K_avx2
+[ 50%] Built target snova_SNOVA_V_K_AES_opt
+[ 50%] Built target snova_SNOVA_V_K_AES_avx2
+[ 50%] Built target snova_SNOVA_V_B_opt
+[ 50%] Built target snova_SNOVA_V_B_avx2
+[ 50%] Built target snova_SNOVA_V_B_AES_opt
+[ 50%] Built target snova_SNOVA_V_B_AES_avx2
+[ 50%] Built target snova_SNOVA_V_S_opt
+[ 50%] Built target snova_SNOVA_V_S_avx2
+[ 50%] Built target snova_SNOVA_V_S_AES_opt
+[ 50%] Built target snova_SNOVA_V_S_AES_avx2
+[ 51%] Built target mqom_mqom3_cat1_gf16_fast_ct_default
+[ 52%] Built target mqom_mqom3_cat1_gf16_fast_ct_avx2
+[ 53%] Built target mqom_mqom3_cat1_gf16_fast_ot_default
+[ 54%] Built target mqom_mqom3_cat1_gf16_fast_ot_avx2
+[ 55%] Built target mqom_mqom3_cat1_gf16_short_ct_default
+[ 55%] Built target mqom_mqom3_cat1_gf16_short_ct_avx2
+[ 56%] Built target mqom_mqom3_cat1_gf16_short_ot_default
+[ 57%] Built target mqom_mqom3_cat1_gf16_short_ot_avx2
+[ 58%] Built target mqom_mqom3_cat1_gf2_shorter_ct_default
+[ 59%] Built target mqom_mqom3_cat1_gf2_shorter_ct_avx2
+[ 60%] Built target mqom_mqom3_cat1_gf2_shorter_ot_default
+[ 61%] Built target mqom_mqom3_cat1_gf2_shorter_ot_avx2
+[ 61%] Built target mqom_mqom3_cat3_gf16_fast_ct_default
+[ 62%] Built target mqom_mqom3_cat3_gf16_fast_ct_avx2
+[ 63%] Built target mqom_mqom3_cat3_gf16_fast_ot_default
+[ 64%] Built target mqom_mqom3_cat3_gf16_fast_ot_avx2
+[ 65%] Built target mqom_mqom3_cat3_gf16_short_ct_default
+[ 66%] Built target mqom_mqom3_cat3_gf16_short_ct_avx2
+[ 67%] Built target mqom_mqom3_cat3_gf16_short_ot_default
+[ 68%] Built target mqom_mqom3_cat3_gf16_short_ot_avx2
+[ 68%] Built target mqom_mqom3_cat3_gf2_shorter_ct_default
+[ 69%] Built target mqom_mqom3_cat3_gf2_shorter_ct_avx2
+[ 70%] Built target mqom_mqom3_cat3_gf2_shorter_ot_default
+[ 71%] Built target mqom_mqom3_cat3_gf2_shorter_ot_avx2
+[ 72%] Built target mqom_mqom3_cat5_gf16_fast_ct_default
+[ 73%] Built target mqom_mqom3_cat5_gf16_fast_ct_avx2
+[ 74%] Built target mqom_mqom3_cat5_gf16_fast_ot_default
+[ 75%] Built target mqom_mqom3_cat5_gf16_fast_ot_avx2
+[ 75%] Built target mqom_mqom3_cat5_gf16_short_ct_default
+[ 76%] Built target mqom_mqom3_cat5_gf16_short_ct_avx2
+[ 77%] Built target mqom_mqom3_cat5_gf16_short_ot_default
+[ 78%] Built target mqom_mqom3_cat5_gf16_short_ot_avx2
+[ 79%] Built target mqom_mqom3_cat5_gf2_shorter_ct_default
+[ 80%] Built target mqom_mqom3_cat5_gf2_shorter_ct_avx2
+[ 81%] Built target mqom_mqom3_cat5_gf2_shorter_ot_default
+[ 82%] Built target mqom_mqom3_cat5_gf2_shorter_ot_avx2
+[ 87%] Built target slh_dsa_c
+[ 87%] Built target sig_stfl_xmss_secret_key_functions
+[ 87%] Built target xmss_sha256_h10
+[ 88%] Built target xmss_sha256_h16
+[ 88%] Built target xmss_sha256_h20
+[ 89%] Built target xmss_shake128_h10
+[ 89%] Built target xmss_shake128_h16
+[ 89%] Built target xmss_shake128_h20
+[ 89%] Built target xmss_sha512_h10
+[ 89%] Built target xmss_sha512_h16
+[ 89%] Built target xmss_sha512_h20
+[ 90%] Built target xmss_shake256_h10
+[ 90%] Built target xmss_shake256_h16
+[ 90%] Built target xmss_shake256_h20
+[ 90%] Built target xmss_sha256_h10_192
+[ 90%] Built target xmss_sha256_h16_192
+[ 91%] Built target xmss_sha256_h20_192
+[ 91%] Built target xmss_shake256_h10_192
+[ 92%] Built target xmss_shake256_h16_192
+[ 93%] Built target xmss_shake256_h20_192
+[ 93%] Built target xmss_shake256_h10_256
+[ 93%] Built target xmss_shake256_h16_256
+[ 93%] Built target xmss_shake256_h20_256
+[ 93%] Built target xmssmt_sha256_h20_2
+[ 93%] Built target xmssmt_sha256_h20_4
+[ 94%] Built target xmssmt_sha256_h40_2
+[ 94%] Built target xmssmt_sha256_h40_4
+[ 94%] Built target xmssmt_sha256_h40_8
+[ 94%] Built target xmssmt_sha256_h60_3
+[ 94%] Built target xmssmt_sha256_h60_6
+[ 95%] Built target xmssmt_sha256_h60_12
+[ 95%] Built target xmssmt_shake128_h20_2
+[ 96%] Built target xmssmt_shake128_h20_4
+[ 96%] Built target xmssmt_shake128_h40_2
+[ 96%] Built target xmssmt_shake128_h40_4
+[ 97%] Built target xmssmt_shake128_h40_8
+[ 97%] Built target xmssmt_shake128_h60_3
+[ 98%] Built target xmssmt_shake128_h60_6
+[ 98%] Built target xmssmt_shake128_h60_12
+[ 98%] Built target oqs
+[ 99%] Built target internal
+[ 99%] Built target oqs-internal
+[ 99%] Built target test_aes
+[ 99%] Built target test_hash
+[ 99%] Built target test_sha3
+[ 99%] Built target speed_common
+[ 99%] Built target example_kem
+[ 99%] Built target kat_kem
+[ 99%] Built target test_kem
+[ 99%] Built target test_kem_mem
+[ 99%] Built target speed_kem
+[ 99%] Built target example_sig
+[ 99%] Built target example_sig_stfl
+[ 99%] Built target kat_sig
+[ 99%] Built target kat_sig_stfl
+[100%] Built target test_sig
+[100%] Built target test_sig_mem
+[100%] Built target speed_sig
+[100%] Built target test_sig_stfl
+[100%] Built target speed_sig_stfl
+[100%] Built target dump_alg_info
+[100%] Built target vectors_sig
+[100%] Built target vectors_kem
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/Erickson/liboqs/lib/cmake/liboqs/liboqsConfig.cmake
+-- Installing: /home/Erickson/liboqs/lib/cmake/liboqs/liboqsConfigVersion.cmake
+-- Installing: /home/Erickson/liboqs/lib/pkgconfig/liboqs.pc
+-- Installing: /home/Erickson/liboqs/lib/liboqs.so.0.16.0
+-- Installing: /home/Erickson/liboqs/lib/liboqs.so.9
+-- Installing: /home/Erickson/liboqs/lib/liboqs.so
+-- Installing: /home/Erickson/liboqs/lib/cmake/liboqs/liboqsTargets.cmake
+-- Installing: /home/Erickson/liboqs/lib/cmake/liboqs/liboqsTargets-release.cmake
+-- Installing: /home/Erickson/liboqs/include/oqs/oqs.h
+-- Installing: /home/Erickson/liboqs/include/oqs/aes_ops.h
+-- Installing: /home/Erickson/liboqs/include/oqs/common.h
+-- Installing: /home/Erickson/liboqs/include/oqs/rand.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sha2_ops.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sha3_ops.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sha3x4_ops.h
+-- Installing: /home/Erickson/liboqs/include/oqs/kem.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_stfl.h
+-- Installing: /home/Erickson/liboqs/include/oqs/kem_bike.h
+-- Installing: /home/Erickson/liboqs/include/oqs/kem_frodokem.h
+-- Installing: /home/Erickson/liboqs/include/oqs/kem_ntruprime.h
+-- Installing: /home/Erickson/liboqs/include/oqs/kem_ntru.h
+-- Installing: /home/Erickson/liboqs/include/oqs/kem_classic_mceliece.h
+-- Installing: /home/Erickson/liboqs/include/oqs/kem_hqc.h
+-- Installing: /home/Erickson/liboqs/include/oqs/kem_kyber.h
+-- Installing: /home/Erickson/liboqs/include/oqs/kem_ml_kem.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_ml_dsa.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_falcon.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_mayo.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_cross.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_uov.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_snova.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_mqom.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_slh_dsa.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_stfl_xmss.h
+-- Installing: /home/Erickson/liboqs/include/oqs/sig_stfl_lms.h
+-- Installing: /home/Erickson/liboqs/include/oqs/oqsconfig.h
